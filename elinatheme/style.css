@@ -1,0 +1,49 @@
+/* 
+Theme Name: Elina Theme
+Template: Divi
+Version: 1.0.1
+Description: Divi Child Theme
+Author: Amalie Schiøtt 
+*/
+
+/* Kasse tekst 'Har du en rabatkupon?' ændre til sort*/
+.woocommerce-info {
+  color: black !important;
+}
+
+/* Kasse tekst ' Klik her for at indtaste din rabatkuponkode' 
+ændre til sort, og tilføjet underline, så man kan se det er klikbart*/
+.woocommerce-info a {
+  color: black !important;
+  text-decoration: underline;
+}
+
+/* Abonnement afkrydsning/valg - ændre tekst farve til sort */
+.nf-form-fields-required,
+#nf-field-5-wrap,
+#nf-field-6-wrap,
+#nf-field-7-wrap,
+#nf-field-8-wrap,
+#nf-field-9-wrap {
+  color: black;
+}
+
+/* Abonnement tekststørrelse - ændre tekst med media@ */
+.nf-form-fields-required,
+.nf-form-content label {
+  font-size: 14px !important;
+}
+
+@media (min-width: 700px) {
+  .nf-form-fields-required,
+  .nf-form-content label {
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 1000px) {
+  .nf-form-fields-required,
+  .nf-form-content label {
+    font-size: 16px !important;
+  }
+}
